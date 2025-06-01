@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{RRT-Algorithmus – Erklärungen}
+\lhead{Wilfried Ornowski}
+\cfoot{\thepage}
+
+\title{Verständliche Erklärung zentraler Konzepte des RRT-Algorithmus}
+\author{Wilfried Ornowski}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Einführung: Was ist RRT (Rapidly-exploring Random Tree)?}
+
+Stell dir vor, du bist in einem dunklen Labyrinth. Du kennst deinen Startpunkt und dein Ziel, aber du weißt nicht, wie die Gänge verlaufen. Also gehst du mit einer Taschenlampe los, probierst zufällig Wege aus und markierst die Abschnitte, die frei sind. Nach und nach entsteht ein Baum von Wegen, die alle von deinem Startpunkt ausgehen – und irgendwann findest du den Pfad, der dich zum Ziel bringt.
+
+\bigskip
+\noindent
+\textbf{Genau das macht der RRT-Algorithmus}:
+\begin{itemize}
+    \item Er baut schrittweise einen \emph{Baum von Pfaden} auf.
+    \item Jeder neue Ast (Verbindung) geht zu einem \emph{zufälligen Punkt}, aber nur dann, wenn der Weg dorthin \emph{nicht blockiert} ist.
+    \item Wenn das Ziel erreicht wird, kann man den Pfad vom Ziel zurück zum Startpunkt rekonstruieren.
+\end{itemize}
+
+\bigskip
+\noindent
+\textbf{Warum ist das nützlich?} Weil RRT auch in sehr komplexen oder unbekannten Umgebungen funktioniert – sogar in hochdimensionalen Räumen (z.\,B. für Roboterarme mit mehreren Gelenken).
+
+\section*{Wie funktioniert RRT Schritt für Schritt?}
+
+\begin{enumerate}
+    \item \textbf{Start:} Der Baum beginnt beim Startpunkt.
+    \item \textbf{Sampling:} Ein neuer Punkt im Raum wird ausgewählt – meist zufällig.
+    \item \textbf{Nächster Punkt:} Der existierende Baumknoten, der am nächsten zum neuen Punkt liegt, wird gesucht.
+    \item \textbf{Steuerung:} Der Algorithmus bewegt sich mit einer festen Schrittweite in Richtung des neuen Punktes.
+    \item \textbf{Kollisionsprüfung:} Die Verbindung zum neuen Punkt wird auf Hindernisse überprüft (siehe unten).
+    \item \textbf{Zielprüfung:} Ist der neue Punkt nahe genug am Ziel, wird der Pfad zurückverfolgt.
+\end{enumerate}
+
+\section*{1. Wie funktioniert die Kollisionsprüfung bei RRT genau?}
+
+Die \textbf{Kollisionsprüfung} (engl. \textit{collision checking}) beantwortet die Frage:
+\begin{quote}
+    \emph{Verläuft die geplante Bewegung zwischen zwei Punkten durch ein Hindernis?}
+\end{quote}
+
+\subsection*{Vorgehensweise}
+
+Angenommen, man möchte von einem existierenden Punkt $P_{\text{start}}$ zu einem neuen Punkt $P_{\text{new}}$ wachsen. Dann wird wie folgt geprüft, ob auf dem Weg dorthin ein Hindernis liegt:
+
+\begin{enumerate}
+    \item \textbf{Interpolation:} Die Strecke zwischen den beiden Punkten wird in $n$ Zwischenpunkte aufgeteilt, z.\,B. für $u = 0, 0.1, 0.2, \dots, 1.0$:
+    \[
+    x(u) = (1 - u) \cdot x_{\text{start}} + u \cdot x_{\text{new}}
+    \quad
+    y(u) = (1 - u) \cdot y_{\text{start}} + u \cdot y_{\text{new}}
+    \]
+    
+    \item \textbf{Prüfung:} Jeder Zwischenpunkt $(x(u), y(u))$ wird daraufhin überprüft, ob er innerhalb eines Hindernisses liegt. Bei rechteckigen Hindernissen (Achsen-parallel) gilt:
+    \[
+    \text{if } x_\text{min} \leq x(u) \leq x_\text{max} \text{ und } y_\text{min} \leq y(u) \leq y_\text{max}
+    \]
+    \item \textbf{Entscheidung:}
+    \begin{itemize}
+        \item Wenn ein Punkt innerhalb eines Hindernisses liegt: \texttt{Kollision erkannt}.
+        \item Wenn kein Punkt im Hindernis liegt: Die Verbindung ist \texttt{kollisionsfrei}.
+    \end{itemize}
+\end{enumerate}
+
+\noindent
+\textbf{Fazit:} Nur kollisionsfreie Kanten werden dem RRT-Baum hinzugefügt. Das garantiert, dass der Algorithmus keine unzulässigen Wege plant.
+
+\section*{2. Was bedeutet \texttt{Goal Bias} im RRT-Algorithmus?}
+
+\textbf{Goal Bias} ist ein gezielter Mechanismus, mit dem der RRT-Algorithmus gelegentlich den Zielpunkt direkt auswählt, statt rein zufällig zu samplen.
+
+\subsection*{Ziel und Wirkung}
+
+\begin{itemize}
+    \item Normalerweise wählt RRT zufällige Punkte im Raum.
+    \item Mit einer bestimmten Wahrscheinlichkeit (z.\,B. 5--10\,\%) wird stattdessen direkt der Zielpunkt als \emph{Sample} verwendet.
+\end{itemize}
+
+\noindent
+\textbf{Beispiel im Pseudocode:}
+\begin{verbatim}
+if random() < goal_sample_rate:
+    sample = goal
+else:
+    sample = random_point()
+\end{verbatim}
+
+\noindent
+\textbf{Vorteil:} Der Baum wächst häufiger in Richtung Ziel – die Wahrscheinlichkeit, das Ziel früher zu erreichen, steigt.
+
+\noindent
+\textbf{Nachteil:} Zu viel Ziel-Bias kann dazu führen, dass der Baum stecken bleibt oder keine alternativen Routen erforscht.
+
+\subsection*{Typische Werte}
+\begin{itemize}
+    \item \texttt{goal\_sample\_rate} $\approx 0.05$ bedeutet: In 5\,\% der Fälle wird das Ziel als Sample gewählt.
+    \item Der Rest sind echte Zufallspunkte, damit der Baum weiter explorativ bleibt.
+\end{itemize}
+
+\section*{Zusammenfassung}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Konzept} & \textbf{Bedeutung und Zweck} \\
+\hline
+\textbf{RRT allgemein} & Baut einen Baum von Pfaden durch zufällige Stichproben im Raum auf. Findet gültige Wege ohne die gesamte Umgebung vorher zu kennen. \\
+\hline
+\textbf{Kollisionsprüfung} & Sorgt dafür, dass nur gültige Pfade (keine Hindernisdurchquerungen) in den Baum aufgenommen werden. \\
+\hline
+\textbf{Goal Bias} & Erhöht die Chance, das Ziel schneller zu erreichen, indem gelegentlich das Ziel direkt als Sample gewählt wird. \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{1em}
+Diese drei Konzepte machen den RRT-Algorithmus in vielen praktischen Anwendungen so effektiv – besonders in dynamischen oder unvollständig bekannten Umgebungen.
+
+\end{document}
