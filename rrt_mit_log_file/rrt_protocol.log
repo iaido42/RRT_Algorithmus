@@ -1,0 +1,1194 @@
+[SYSTEM] RRT-Protokoll gestartet.
+[SYSTEM] Datum/Zeit: 02.06.2025 07:27:21 CEST
+[CONFIG] Konfigurationsraum: Groesse [100, 100]
+[CONFIG] Startknoten N0 an Position: (10, 10)
+[CONFIG] Zielposition: (95, 95)
+[CONFIG] Schrittweite (delta_q): 8.0
+[CONFIG] Hindernis 'Rect1' definiert: von (40, 20) bis (60, 80)
+------------------------------------------------------------
+[Iter. 001] START
+[Iter. 001] SAMPLE: Generiere Zufallspunkt x_rand -> (31.0, 85.7)
+[Iter. 001] NEAREST: -> Naechster Knoten ist N0 (10.0, 10.0)
+[Iter. 001] STEER: -> Neue Position fuer x_new: (12.1, 17.7)
+[Iter. 001] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 001] ADD_NODE: Fuege neuen Knoten N1 hinzu. Parent: N0.
+[Iter. 001] END (Baumgroesse: 2 Knoten)
+------------------------------------------------------------
+[Iter. 002] START
+[Iter. 002] SAMPLE: Generiere Zufallspunkt x_rand -> (62.4, 86.7)
+[Iter. 002] NEAREST: -> Naechster Knoten ist N1 (12.1, 17.7)
+[Iter. 002] STEER: -> Neue Position fuer x_new: (16.8, 24.2)
+[Iter. 002] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 002] ADD_NODE: Fuege neuen Knoten N2 hinzu. Parent: N1.
+[Iter. 002] END (Baumgroesse: 3 Knoten)
+------------------------------------------------------------
+[Iter. 003] START
+[Iter. 003] SAMPLE: Generiere Zufallspunkt x_rand -> (12.6, 75.3)
+[Iter. 003] NEAREST: -> Naechster Knoten ist N2 (16.8, 24.2)
+[Iter. 003] STEER: -> Neue Position fuer x_new: (16.2, 32.2)
+[Iter. 003] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 003] ADD_NODE: Fuege neuen Knoten N3 hinzu. Parent: N2.
+[Iter. 003] END (Baumgroesse: 4 Knoten)
+------------------------------------------------------------
+[Iter. 004] START
+[Iter. 004] SAMPLE: Generiere Zufallspunkt x_rand -> (0.8, 91.4)
+[Iter. 004] NEAREST: -> Naechster Knoten ist N3 (16.2, 32.2)
+[Iter. 004] STEER: -> Neue Position fuer x_new: (14.2, 39.9)
+[Iter. 004] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 004] ADD_NODE: Fuege neuen Knoten N4 hinzu. Parent: N3.
+[Iter. 004] END (Baumgroesse: 5 Knoten)
+------------------------------------------------------------
+[Iter. 005] START
+[Iter. 005] SAMPLE: Generiere Zufallspunkt x_rand -> (45.4, 97.6)
+[Iter. 005] NEAREST: -> Naechster Knoten ist N4 (14.2, 39.9)
+[Iter. 005] STEER: -> Neue Position fuer x_new: (18.0, 46.9)
+[Iter. 005] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 005] ADD_NODE: Fuege neuen Knoten N5 hinzu. Parent: N4.
+[Iter. 005] END (Baumgroesse: 6 Knoten)
+------------------------------------------------------------
+[Iter. 006] START
+[Iter. 006] SAMPLE: Generiere Zufallspunkt x_rand -> (40.4, 34.1)
+[Iter. 006] NEAREST: -> Naechster Knoten ist N3 (16.2, 32.2)
+[Iter. 006] STEER: -> Neue Position fuer x_new: (24.2, 32.8)
+[Iter. 006] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 006] ADD_NODE: Fuege neuen Knoten N6 hinzu. Parent: N3.
+[Iter. 006] END (Baumgroesse: 7 Knoten)
+------------------------------------------------------------
+[Iter. 007] START
+[Iter. 007] SAMPLE: Generiere Zufallspunkt x_rand -> (41.9, 87.9)
+[Iter. 007] NEAREST: -> Naechster Knoten ist N5 (18.0, 46.9)
+[Iter. 007] STEER: -> Neue Position fuer x_new: (22.0, 53.8)
+[Iter. 007] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 007] ADD_NODE: Fuege neuen Knoten N7 hinzu. Parent: N5.
+[Iter. 007] END (Baumgroesse: 8 Knoten)
+------------------------------------------------------------
+[Iter. 008] START
+[Iter. 008] SAMPLE: Generiere Zufallspunkt x_rand -> (82.0, 37.2)
+[Iter. 008] NEAREST: -> Naechster Knoten ist N6 (24.2, 32.8)
+[Iter. 008] STEER: -> Neue Position fuer x_new: (32.1, 33.4)
+[Iter. 008] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 008] ADD_NODE: Fuege neuen Knoten N8 hinzu. Parent: N6.
+[Iter. 008] END (Baumgroesse: 9 Knoten)
+------------------------------------------------------------
+[Iter. 009] START
+[Iter. 009] SAMPLE: Generiere Zufallspunkt x_rand -> (21.1, 92.4)
+[Iter. 009] NEAREST: -> Naechster Knoten ist N7 (22.0, 53.8)
+[Iter. 009] STEER: -> Neue Position fuer x_new: (21.8, 61.8)
+[Iter. 009] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 009] ADD_NODE: Fuege neuen Knoten N9 hinzu. Parent: N7.
+[Iter. 009] END (Baumgroesse: 10 Knoten)
+------------------------------------------------------------
+[Iter. 010] START
+[Iter. 010] SAMPLE: Generiere Zufallspunkt x_rand -> (1.1, 68.6)
+[Iter. 010] NEAREST: -> Naechster Knoten ist N9 (21.8, 61.8)
+[Iter. 010] STEER: -> Neue Position fuer x_new: (14.2, 64.3)
+[Iter. 010] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 010] ADD_NODE: Fuege neuen Knoten N10 hinzu. Parent: N9.
+[Iter. 010] END (Baumgroesse: 11 Knoten)
+------------------------------------------------------------
+[Iter. 011] START
+[Iter. 011] SAMPLE: Generiere Zufallspunkt x_rand -> (62.3, 3.8)
+[Iter. 011] NEAREST: -> Naechster Knoten ist N8 (32.1, 33.4)
+[Iter. 011] STEER: -> Neue Position fuer x_new: (37.9, 27.8)
+[Iter. 011] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 011] ADD_NODE: Fuege neuen Knoten N11 hinzu. Parent: N8.
+[Iter. 011] END (Baumgroesse: 12 Knoten)
+------------------------------------------------------------
+[Iter. 012] START
+[Iter. 012] SAMPLE: Generiere Zufallspunkt x_rand -> (5.1, 53.2)
+[Iter. 012] NEAREST: -> Naechster Knoten ist N5 (18.0, 46.9)
+[Iter. 012] STEER: -> Neue Position fuer x_new: (10.8, 50.4)
+[Iter. 012] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 012] ADD_NODE: Fuege neuen Knoten N12 hinzu. Parent: N5.
+[Iter. 012] END (Baumgroesse: 13 Knoten)
+------------------------------------------------------------
+[Iter. 013] START
+[Iter. 013] SAMPLE: Generiere Zufallspunkt x_rand -> (98.7, 62.5)
+[Iter. 013] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 013] STEER: -> Neue Position fuer x_new: (44.8, 31.8)
+[Iter. 013] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 013] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 013] END (Baumgroesse: 13 Knoten)
+------------------------------------------------------------
+[Iter. 014] START
+[Iter. 014] SAMPLE: Generiere Zufallspunkt x_rand -> (61.3, 85.1)
+[Iter. 014] NEAREST: -> Naechster Knoten ist N9 (21.8, 61.8)
+[Iter. 014] STEER: -> Neue Position fuer x_new: (28.7, 65.9)
+[Iter. 014] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 014] ADD_NODE: Fuege neuen Knoten N13 hinzu. Parent: N9.
+[Iter. 014] END (Baumgroesse: 14 Knoten)
+------------------------------------------------------------
+[Iter. 015] START
+[Iter. 015] SAMPLE: Generiere Zufallspunkt x_rand -> (17.0, 23.8)
+[Iter. 015] NEAREST: -> Naechster Knoten ist N2 (16.8, 24.2)
+[Iter. 015] STEER: -> Neue Position fuer x_new: (17.0, 23.8)
+[Iter. 015] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 015] ADD_NODE: Fuege neuen Knoten N14 hinzu. Parent: N2.
+[Iter. 015] END (Baumgroesse: 15 Knoten)
+------------------------------------------------------------
+[Iter. 016] START
+[Iter. 016] SAMPLE: Generiere Zufallspunkt x_rand -> (35.4, 66.6)
+[Iter. 016] NEAREST: -> Naechster Knoten ist N13 (28.7, 65.9)
+[Iter. 016] STEER: -> Neue Position fuer x_new: (35.4, 66.6)
+[Iter. 016] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 016] ADD_NODE: Fuege neuen Knoten N15 hinzu. Parent: N13.
+[Iter. 016] END (Baumgroesse: 16 Knoten)
+------------------------------------------------------------
+[Iter. 017] START
+[Iter. 017] SAMPLE: Generiere Zufallspunkt x_rand -> (3.9, 41.6)
+[Iter. 017] NEAREST: -> Naechster Knoten ist N4 (14.2, 39.9)
+[Iter. 017] STEER: -> Neue Position fuer x_new: (6.3, 41.2)
+[Iter. 017] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 017] ADD_NODE: Fuege neuen Knoten N16 hinzu. Parent: N4.
+[Iter. 017] END (Baumgroesse: 17 Knoten)
+------------------------------------------------------------
+[Iter. 018] START
+[Iter. 018] SAMPLE: Generiere Zufallspunkt x_rand -> (16.5, 0.3)
+[Iter. 018] NEAREST: -> Naechster Knoten ist N0 (10.0, 10.0)
+[Iter. 018] STEER: -> Neue Position fuer x_new: (14.4, 3.3)
+[Iter. 018] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 018] ADD_NODE: Fuege neuen Knoten N17 hinzu. Parent: N0.
+[Iter. 018] END (Baumgroesse: 18 Knoten)
+------------------------------------------------------------
+[Iter. 019] START
+[Iter. 019] SAMPLE: Generiere Zufallspunkt x_rand -> (13.2, 57.0)
+[Iter. 019] NEAREST: -> Naechster Knoten ist N12 (10.8, 50.4)
+[Iter. 019] STEER: -> Neue Position fuer x_new: (13.2, 57.0)
+[Iter. 019] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 019] ADD_NODE: Fuege neuen Knoten N18 hinzu. Parent: N12.
+[Iter. 019] END (Baumgroesse: 19 Knoten)
+------------------------------------------------------------
+[Iter. 020] START
+[Iter. 020] SAMPLE: Generiere Zufallspunkt x_rand -> (96.5, 71.4)
+[Iter. 020] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 020] STEER: -> Neue Position fuer x_new: (43.4, 67.2)
+[Iter. 020] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 020] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 020] END (Baumgroesse: 19 Knoten)
+------------------------------------------------------------
+[Iter. 021] START
+[Iter. 021] SAMPLE: Generiere Zufallspunkt x_rand -> (89.7, 14.0)
+[Iter. 021] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 021] STEER: -> Neue Position fuer x_new: (45.6, 25.7)
+[Iter. 021] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 021] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 021] END (Baumgroesse: 19 Knoten)
+------------------------------------------------------------
+[Iter. 022] START
+[Iter. 022] SAMPLE: Generiere Zufallspunkt x_rand -> (93.0, 90.4)
+[Iter. 022] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 022] STEER: -> Neue Position fuer x_new: (42.8, 69.6)
+[Iter. 022] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 022] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 022] END (Baumgroesse: 19 Knoten)
+------------------------------------------------------------
+[Iter. 023] START
+[Iter. 023] SAMPLE: Generiere Zufallspunkt x_rand -> (25.6, 31.9)
+[Iter. 023] NEAREST: -> Naechster Knoten ist N6 (24.2, 32.8)
+[Iter. 023] STEER: -> Neue Position fuer x_new: (25.6, 31.9)
+[Iter. 023] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 023] ADD_NODE: Fuege neuen Knoten N19 hinzu. Parent: N6.
+[Iter. 023] END (Baumgroesse: 20 Knoten)
+------------------------------------------------------------
+[Iter. 024] START
+[Iter. 024] SAMPLE: Generiere Zufallspunkt x_rand -> (70.9, 81.8)
+[Iter. 024] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 024] STEER: -> Neue Position fuer x_new: (42.8, 69.7)
+[Iter. 024] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 024] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 024] END (Baumgroesse: 20 Knoten)
+------------------------------------------------------------
+[Iter. 025] START
+[Iter. 025] SAMPLE: Generiere Zufallspunkt x_rand -> (1.3, 3.1)
+[Iter. 025] NEAREST: -> Naechster Knoten ist N0 (10.0, 10.0)
+[Iter. 025] STEER: -> Neue Position fuer x_new: (3.7, 5.1)
+[Iter. 025] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 025] ADD_NODE: Fuege neuen Knoten N20 hinzu. Parent: N0.
+[Iter. 025] END (Baumgroesse: 21 Knoten)
+------------------------------------------------------------
+[Iter. 026] START
+[Iter. 026] SAMPLE: Generiere Zufallspunkt x_rand -> (53.3, 29.1)
+[Iter. 026] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 026] STEER: -> Neue Position fuer x_new: (45.8, 28.5)
+[Iter. 026] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 026] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 026] END (Baumgroesse: 21 Knoten)
+------------------------------------------------------------
+[Iter. 027] START
+[Iter. 027] SAMPLE: Generiere Zufallspunkt x_rand -> (3.0, 50.9)
+[Iter. 027] NEAREST: -> Naechster Knoten ist N12 (10.8, 50.4)
+[Iter. 027] STEER: -> Neue Position fuer x_new: (3.0, 50.9)
+[Iter. 027] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 027] ADD_NODE: Fuege neuen Knoten N21 hinzu. Parent: N12.
+[Iter. 027] END (Baumgroesse: 22 Knoten)
+------------------------------------------------------------
+[Iter. 028] START
+[Iter. 028] SAMPLE: Generiere Zufallspunkt x_rand -> (99.9, 65.9)
+[Iter. 028] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 028] STEER: -> Neue Position fuer x_new: (43.4, 66.5)
+[Iter. 028] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 028] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 028] END (Baumgroesse: 22 Knoten)
+------------------------------------------------------------
+[Iter. 029] START
+[Iter. 029] SAMPLE: Generiere Zufallspunkt x_rand -> (35.2, 48.7)
+[Iter. 029] NEAREST: -> Naechster Knoten ist N7 (22.0, 53.8)
+[Iter. 029] STEER: -> Neue Position fuer x_new: (29.5, 51.0)
+[Iter. 029] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 029] ADD_NODE: Fuege neuen Knoten N22 hinzu. Parent: N7.
+[Iter. 029] END (Baumgroesse: 23 Knoten)
+------------------------------------------------------------
+[Iter. 030] START
+[Iter. 030] SAMPLE: Generiere Zufallspunkt x_rand -> (69.3, 79.5)
+[Iter. 030] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 030] STEER: -> Neue Position fuer x_new: (42.9, 69.4)
+[Iter. 030] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 030] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 030] END (Baumgroesse: 23 Knoten)
+------------------------------------------------------------
+[Iter. 031] START
+[Iter. 031] SAMPLE: Generiere Zufallspunkt x_rand -> (89.1, 83.3)
+[Iter. 031] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 031] STEER: -> Neue Position fuer x_new: (43.1, 69.0)
+[Iter. 031] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 031] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 031] END (Baumgroesse: 23 Knoten)
+------------------------------------------------------------
+[Iter. 032] START
+[Iter. 032] SAMPLE: Generiere Zufallspunkt x_rand -> (83.0, 96.6)
+[Iter. 032] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 032] STEER: -> Neue Position fuer x_new: (42.2, 70.8)
+[Iter. 032] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 032] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 032] END (Baumgroesse: 23 Knoten)
+------------------------------------------------------------
+[Iter. 033] START
+[Iter. 033] SAMPLE: Generiere Zufallspunkt x_rand -> (7.5, 76.7)
+[Iter. 033] NEAREST: -> Naechster Knoten ist N10 (14.2, 64.3)
+[Iter. 033] STEER: -> Neue Position fuer x_new: (10.4, 71.3)
+[Iter. 033] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 033] ADD_NODE: Fuege neuen Knoten N23 hinzu. Parent: N10.
+[Iter. 033] END (Baumgroesse: 24 Knoten)
+------------------------------------------------------------
+[Iter. 034] START
+[Iter. 034] SAMPLE: Generiere Zufallspunkt x_rand -> (53.4, 47.0)
+[Iter. 034] NEAREST: -> Naechster Knoten ist N22 (29.5, 51.0)
+[Iter. 034] STEER: -> Neue Position fuer x_new: (37.4, 49.7)
+[Iter. 034] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 034] ADD_NODE: Fuege neuen Knoten N24 hinzu. Parent: N22.
+[Iter. 034] END (Baumgroesse: 25 Knoten)
+------------------------------------------------------------
+[Iter. 035] START
+[Iter. 035] SAMPLE: Generiere Zufallspunkt x_rand -> (85.4, 59.7)
+[Iter. 035] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 035] STEER: -> Neue Position fuer x_new: (45.2, 51.3)
+[Iter. 035] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 035] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 035] END (Baumgroesse: 25 Knoten)
+------------------------------------------------------------
+[Iter. 036] START
+[Iter. 036] SAMPLE: Generiere Zufallspunkt x_rand -> (95.0, 95.0)
+[Iter. 036] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 036] STEER: -> Neue Position fuer x_new: (42.7, 70.0)
+[Iter. 036] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 036] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 036] END (Baumgroesse: 25 Knoten)
+------------------------------------------------------------
+[Iter. 037] START
+[Iter. 037] SAMPLE: Generiere Zufallspunkt x_rand -> (62.0, 59.4)
+[Iter. 037] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 037] STEER: -> Neue Position fuer x_new: (44.8, 52.6)
+[Iter. 037] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 037] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 037] END (Baumgroesse: 25 Knoten)
+------------------------------------------------------------
+[Iter. 038] START
+[Iter. 038] SAMPLE: Generiere Zufallspunkt x_rand -> (90.1, 70.3)
+[Iter. 038] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 038] STEER: -> Neue Position fuer x_new: (43.4, 67.1)
+[Iter. 038] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 038] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 038] END (Baumgroesse: 25 Knoten)
+------------------------------------------------------------
+[Iter. 039] START
+[Iter. 039] SAMPLE: Generiere Zufallspunkt x_rand -> (11.0, 62.0)
+[Iter. 039] NEAREST: -> Naechster Knoten ist N10 (14.2, 64.3)
+[Iter. 039] STEER: -> Neue Position fuer x_new: (11.0, 62.0)
+[Iter. 039] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 039] ADD_NODE: Fuege neuen Knoten N25 hinzu. Parent: N10.
+[Iter. 039] END (Baumgroesse: 26 Knoten)
+------------------------------------------------------------
+[Iter. 040] START
+[Iter. 040] SAMPLE: Generiere Zufallspunkt x_rand -> (86.9, 7.2)
+[Iter. 040] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 040] STEER: -> Neue Position fuer x_new: (45.2, 24.7)
+[Iter. 040] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 040] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 040] END (Baumgroesse: 26 Knoten)
+------------------------------------------------------------
+[Iter. 041] START
+[Iter. 041] SAMPLE: Generiere Zufallspunkt x_rand -> (95.0, 95.0)
+[Iter. 041] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 041] STEER: -> Neue Position fuer x_new: (42.7, 70.0)
+[Iter. 041] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 041] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 041] END (Baumgroesse: 26 Knoten)
+------------------------------------------------------------
+[Iter. 042] START
+[Iter. 042] SAMPLE: Generiere Zufallspunkt x_rand -> (28.3, 99.9)
+[Iter. 042] NEAREST: -> Naechster Knoten ist N23 (10.4, 71.3)
+[Iter. 042] STEER: -> Neue Position fuer x_new: (14.6, 78.1)
+[Iter. 042] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 042] ADD_NODE: Fuege neuen Knoten N26 hinzu. Parent: N23.
+[Iter. 042] END (Baumgroesse: 27 Knoten)
+------------------------------------------------------------
+[Iter. 043] START
+[Iter. 043] SAMPLE: Generiere Zufallspunkt x_rand -> (13.0, 5.6)
+[Iter. 043] NEAREST: -> Naechster Knoten ist N17 (14.4, 3.3)
+[Iter. 043] STEER: -> Neue Position fuer x_new: (13.0, 5.6)
+[Iter. 043] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 043] ADD_NODE: Fuege neuen Knoten N27 hinzu. Parent: N17.
+[Iter. 043] END (Baumgroesse: 28 Knoten)
+------------------------------------------------------------
+[Iter. 044] START
+[Iter. 044] SAMPLE: Generiere Zufallspunkt x_rand -> (40.3, 39.0)
+[Iter. 044] NEAREST: -> Naechster Knoten ist N8 (32.1, 33.4)
+[Iter. 044] STEER: -> Neue Position fuer x_new: (38.7, 37.9)
+[Iter. 044] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 044] ADD_NODE: Fuege neuen Knoten N28 hinzu. Parent: N8.
+[Iter. 044] END (Baumgroesse: 29 Knoten)
+------------------------------------------------------------
+[Iter. 045] START
+[Iter. 045] SAMPLE: Generiere Zufallspunkt x_rand -> (95.0, 95.0)
+[Iter. 045] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 045] STEER: -> Neue Position fuer x_new: (42.7, 70.0)
+[Iter. 045] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 045] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 045] END (Baumgroesse: 29 Knoten)
+------------------------------------------------------------
+[Iter. 046] START
+[Iter. 046] SAMPLE: Generiere Zufallspunkt x_rand -> (59.5, 66.6)
+[Iter. 046] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 046] STEER: -> Neue Position fuer x_new: (43.4, 66.6)
+[Iter. 046] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 046] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 046] END (Baumgroesse: 29 Knoten)
+------------------------------------------------------------
+[Iter. 047] START
+[Iter. 047] SAMPLE: Generiere Zufallspunkt x_rand -> (33.3, 41.4)
+[Iter. 047] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 047] STEER: -> Neue Position fuer x_new: (33.3, 41.4)
+[Iter. 047] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 047] ADD_NODE: Fuege neuen Knoten N29 hinzu. Parent: N28.
+[Iter. 047] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 048] START
+[Iter. 048] SAMPLE: Generiere Zufallspunkt x_rand -> (76.9, 14.7)
+[Iter. 048] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 048] STEER: -> Neue Position fuer x_new: (45.4, 25.3)
+[Iter. 048] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 048] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 048] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 049] START
+[Iter. 049] SAMPLE: Generiere Zufallspunkt x_rand -> (73.3, 62.6)
+[Iter. 049] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 049] STEER: -> Neue Position fuer x_new: (43.4, 65.7)
+[Iter. 049] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 049] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 049] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 050] START
+[Iter. 050] SAMPLE: Generiere Zufallspunkt x_rand -> (80.3, 52.0)
+[Iter. 050] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 050] STEER: -> Neue Position fuer x_new: (45.4, 50.1)
+[Iter. 050] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 050] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 050] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 051] START
+[Iter. 051] SAMPLE: Generiere Zufallspunkt x_rand -> (48.8, 45.4)
+[Iter. 051] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 051] STEER: -> Neue Position fuer x_new: (44.9, 46.9)
+[Iter. 051] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 051] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 051] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 052] START
+[Iter. 052] SAMPLE: Generiere Zufallspunkt x_rand -> (59.3, 77.5)
+[Iter. 052] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 052] STEER: -> Neue Position fuer x_new: (42.7, 69.9)
+[Iter. 052] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 052] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 052] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 053] START
+[Iter. 053] SAMPLE: Generiere Zufallspunkt x_rand -> (82.2, 63.5)
+[Iter. 053] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 053] STEER: -> Neue Position fuer x_new: (43.4, 66.0)
+[Iter. 053] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 053] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 053] END (Baumgroesse: 30 Knoten)
+------------------------------------------------------------
+[Iter. 054] START
+[Iter. 054] SAMPLE: Generiere Zufallspunkt x_rand -> (30.9, 63.6)
+[Iter. 054] NEAREST: -> Naechster Knoten ist N13 (28.7, 65.9)
+[Iter. 054] STEER: -> Neue Position fuer x_new: (30.9, 63.6)
+[Iter. 054] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 054] ADD_NODE: Fuege neuen Knoten N30 hinzu. Parent: N13.
+[Iter. 054] END (Baumgroesse: 31 Knoten)
+------------------------------------------------------------
+[Iter. 055] START
+[Iter. 055] SAMPLE: Generiere Zufallspunkt x_rand -> (29.7, 9.5)
+[Iter. 055] NEAREST: -> Naechster Knoten ist N17 (14.4, 3.3)
+[Iter. 055] STEER: -> Neue Position fuer x_new: (21.8, 6.4)
+[Iter. 055] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 055] ADD_NODE: Fuege neuen Knoten N31 hinzu. Parent: N17.
+[Iter. 055] END (Baumgroesse: 32 Knoten)
+------------------------------------------------------------
+[Iter. 056] START
+[Iter. 056] SAMPLE: Generiere Zufallspunkt x_rand -> (57.1, 62.0)
+[Iter. 056] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 056] STEER: -> Neue Position fuer x_new: (43.3, 64.9)
+[Iter. 056] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 056] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 056] END (Baumgroesse: 32 Knoten)
+------------------------------------------------------------
+[Iter. 057] START
+[Iter. 057] SAMPLE: Generiere Zufallspunkt x_rand -> (73.5, 65.2)
+[Iter. 057] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 057] STEER: -> Neue Position fuer x_new: (43.4, 66.3)
+[Iter. 057] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 057] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 057] END (Baumgroesse: 32 Knoten)
+------------------------------------------------------------
+[Iter. 058] START
+[Iter. 058] SAMPLE: Generiere Zufallspunkt x_rand -> (17.1, 40.6)
+[Iter. 058] NEAREST: -> Naechster Knoten ist N4 (14.2, 39.9)
+[Iter. 058] STEER: -> Neue Position fuer x_new: (17.1, 40.6)
+[Iter. 058] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 058] ADD_NODE: Fuege neuen Knoten N32 hinzu. Parent: N4.
+[Iter. 058] END (Baumgroesse: 33 Knoten)
+------------------------------------------------------------
+[Iter. 059] START
+[Iter. 059] SAMPLE: Generiere Zufallspunkt x_rand -> (95.5, 0.2)
+[Iter. 059] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 059] STEER: -> Neue Position fuer x_new: (45.1, 24.3)
+[Iter. 059] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 059] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 059] END (Baumgroesse: 33 Knoten)
+------------------------------------------------------------
+[Iter. 060] START
+[Iter. 060] SAMPLE: Generiere Zufallspunkt x_rand -> (15.5, 76.9)
+[Iter. 060] NEAREST: -> Naechster Knoten ist N26 (14.6, 78.1)
+[Iter. 060] STEER: -> Neue Position fuer x_new: (15.5, 76.9)
+[Iter. 060] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 060] ADD_NODE: Fuege neuen Knoten N33 hinzu. Parent: N26.
+[Iter. 060] END (Baumgroesse: 34 Knoten)
+------------------------------------------------------------
+[Iter. 061] START
+[Iter. 061] SAMPLE: Generiere Zufallspunkt x_rand -> (47.7, 8.2)
+[Iter. 061] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 061] STEER: -> Neue Position fuer x_new: (41.4, 20.6)
+[Iter. 061] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 061] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 061] END (Baumgroesse: 34 Knoten)
+------------------------------------------------------------
+[Iter. 062] START
+[Iter. 062] SAMPLE: Generiere Zufallspunkt x_rand -> (37.8, 37.3)
+[Iter. 062] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 062] STEER: -> Neue Position fuer x_new: (37.8, 37.3)
+[Iter. 062] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 062] ADD_NODE: Fuege neuen Knoten N34 hinzu. Parent: N28.
+[Iter. 062] END (Baumgroesse: 35 Knoten)
+------------------------------------------------------------
+[Iter. 063] START
+[Iter. 063] SAMPLE: Generiere Zufallspunkt x_rand -> (90.8, 39.9)
+[Iter. 063] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 063] STEER: -> Neue Position fuer x_new: (46.7, 38.2)
+[Iter. 063] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 063] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 063] END (Baumgroesse: 35 Knoten)
+------------------------------------------------------------
+[Iter. 064] START
+[Iter. 064] SAMPLE: Generiere Zufallspunkt x_rand -> (29.0, 43.8)
+[Iter. 064] NEAREST: -> Naechster Knoten ist N29 (33.3, 41.4)
+[Iter. 064] STEER: -> Neue Position fuer x_new: (29.0, 43.8)
+[Iter. 064] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 064] ADD_NODE: Fuege neuen Knoten N35 hinzu. Parent: N29.
+[Iter. 064] END (Baumgroesse: 36 Knoten)
+------------------------------------------------------------
+[Iter. 065] START
+[Iter. 065] SAMPLE: Generiere Zufallspunkt x_rand -> (10.0, 36.1)
+[Iter. 065] NEAREST: -> Naechster Knoten ist N4 (14.2, 39.9)
+[Iter. 065] STEER: -> Neue Position fuer x_new: (10.0, 36.1)
+[Iter. 065] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 065] ADD_NODE: Fuege neuen Knoten N36 hinzu. Parent: N4.
+[Iter. 065] END (Baumgroesse: 37 Knoten)
+------------------------------------------------------------
+[Iter. 066] START
+[Iter. 066] SAMPLE: Generiere Zufallspunkt x_rand -> (99.5, 39.4)
+[Iter. 066] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 066] STEER: -> Neue Position fuer x_new: (46.7, 38.1)
+[Iter. 066] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 066] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 066] END (Baumgroesse: 37 Knoten)
+------------------------------------------------------------
+[Iter. 067] START
+[Iter. 067] SAMPLE: Generiere Zufallspunkt x_rand -> (57.9, 54.6)
+[Iter. 067] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 067] STEER: -> Neue Position fuer x_new: (45.2, 51.5)
+[Iter. 067] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 067] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 067] END (Baumgroesse: 37 Knoten)
+------------------------------------------------------------
+[Iter. 068] START
+[Iter. 068] SAMPLE: Generiere Zufallspunkt x_rand -> (76.4, 99.1)
+[Iter. 068] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 068] STEER: -> Neue Position fuer x_new: (41.7, 71.5)
+[Iter. 068] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 068] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 068] END (Baumgroesse: 37 Knoten)
+------------------------------------------------------------
+[Iter. 069] START
+[Iter. 069] SAMPLE: Generiere Zufallspunkt x_rand -> (99.4, 57.6)
+[Iter. 069] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 069] STEER: -> Neue Position fuer x_new: (45.3, 50.7)
+[Iter. 069] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 069] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 069] END (Baumgroesse: 37 Knoten)
+------------------------------------------------------------
+[Iter. 070] START
+[Iter. 070] SAMPLE: Generiere Zufallspunkt x_rand -> (90.9, 14.6)
+[Iter. 070] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 070] STEER: -> Neue Position fuer x_new: (45.6, 25.9)
+[Iter. 070] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 070] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 070] END (Baumgroesse: 37 Knoten)
+------------------------------------------------------------
+[Iter. 071] START
+[Iter. 071] SAMPLE: Generiere Zufallspunkt x_rand -> (39.8, 75.8)
+[Iter. 071] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 071] STEER: -> Neue Position fuer x_new: (38.9, 73.8)
+[Iter. 071] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 071] ADD_NODE: Fuege neuen Knoten N37 hinzu. Parent: N15.
+[Iter. 071] END (Baumgroesse: 38 Knoten)
+------------------------------------------------------------
+[Iter. 072] START
+[Iter. 072] SAMPLE: Generiere Zufallspunkt x_rand -> (59.9, 97.3)
+[Iter. 072] NEAREST: -> Naechster Knoten ist N37 (38.9, 73.8)
+[Iter. 072] STEER: -> Neue Position fuer x_new: (44.2, 79.8)
+[Iter. 072] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 072] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 072] END (Baumgroesse: 38 Knoten)
+------------------------------------------------------------
+[Iter. 073] START
+[Iter. 073] SAMPLE: Generiere Zufallspunkt x_rand -> (78.7, 68.3)
+[Iter. 073] NEAREST: -> Naechster Knoten ist N37 (38.9, 73.8)
+[Iter. 073] STEER: -> Neue Position fuer x_new: (46.8, 72.7)
+[Iter. 073] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 073] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 073] END (Baumgroesse: 38 Knoten)
+------------------------------------------------------------
+[Iter. 074] START
+[Iter. 074] SAMPLE: Generiere Zufallspunkt x_rand -> (98.5, 83.3)
+[Iter. 074] NEAREST: -> Naechster Knoten ist N37 (38.9, 73.8)
+[Iter. 074] STEER: -> Neue Position fuer x_new: (46.8, 75.1)
+[Iter. 074] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 074] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 074] END (Baumgroesse: 38 Knoten)
+------------------------------------------------------------
+[Iter. 075] START
+[Iter. 075] SAMPLE: Generiere Zufallspunkt x_rand -> (35.9, 93.1)
+[Iter. 075] NEAREST: -> Naechster Knoten ist N37 (38.9, 73.8)
+[Iter. 075] STEER: -> Neue Position fuer x_new: (37.7, 81.7)
+[Iter. 075] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 075] ADD_NODE: Fuege neuen Knoten N38 hinzu. Parent: N37.
+[Iter. 075] END (Baumgroesse: 39 Knoten)
+------------------------------------------------------------
+[Iter. 076] START
+[Iter. 076] SAMPLE: Generiere Zufallspunkt x_rand -> (15.4, 10.0)
+[Iter. 076] NEAREST: -> Naechster Knoten ist N27 (13.0, 5.6)
+[Iter. 076] STEER: -> Neue Position fuer x_new: (15.4, 10.0)
+[Iter. 076] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 076] ADD_NODE: Fuege neuen Knoten N39 hinzu. Parent: N27.
+[Iter. 076] END (Baumgroesse: 40 Knoten)
+------------------------------------------------------------
+[Iter. 077] START
+[Iter. 077] SAMPLE: Generiere Zufallspunkt x_rand -> (65.9, 66.8)
+[Iter. 077] NEAREST: -> Naechster Knoten ist N37 (38.9, 73.8)
+[Iter. 077] STEER: -> Neue Position fuer x_new: (46.6, 71.8)
+[Iter. 077] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 077] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 077] END (Baumgroesse: 40 Knoten)
+------------------------------------------------------------
+[Iter. 078] START
+[Iter. 078] SAMPLE: Generiere Zufallspunkt x_rand -> (67.9, 46.9)
+[Iter. 078] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 078] STEER: -> Neue Position fuer x_new: (46.4, 40.3)
+[Iter. 078] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 078] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 078] END (Baumgroesse: 40 Knoten)
+------------------------------------------------------------
+[Iter. 079] START
+[Iter. 079] SAMPLE: Generiere Zufallspunkt x_rand -> (74.6, 85.8)
+[Iter. 079] NEAREST: -> Naechster Knoten ist N38 (37.7, 81.7)
+[Iter. 079] STEER: -> Neue Position fuer x_new: (45.6, 82.6)
+[Iter. 079] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 079] ADD_NODE: Fuege neuen Knoten N40 hinzu. Parent: N38.
+[Iter. 079] END (Baumgroesse: 41 Knoten)
+------------------------------------------------------------
+[Iter. 080] START
+[Iter. 080] SAMPLE: Generiere Zufallspunkt x_rand -> (7.1, 54.6)
+[Iter. 080] NEAREST: -> Naechster Knoten ist N21 (3.0, 50.9)
+[Iter. 080] STEER: -> Neue Position fuer x_new: (7.1, 54.6)
+[Iter. 080] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 080] ADD_NODE: Fuege neuen Knoten N41 hinzu. Parent: N21.
+[Iter. 080] END (Baumgroesse: 42 Knoten)
+------------------------------------------------------------
+[Iter. 081] START
+[Iter. 081] SAMPLE: Generiere Zufallspunkt x_rand -> (25.0, 75.3)
+[Iter. 081] NEAREST: -> Naechster Knoten ist N33 (15.5, 76.9)
+[Iter. 081] STEER: -> Neue Position fuer x_new: (23.4, 75.6)
+[Iter. 081] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 081] ADD_NODE: Fuege neuen Knoten N42 hinzu. Parent: N33.
+[Iter. 081] END (Baumgroesse: 43 Knoten)
+------------------------------------------------------------
+[Iter. 082] START
+[Iter. 082] SAMPLE: Generiere Zufallspunkt x_rand -> (74.9, 69.4)
+[Iter. 082] NEAREST: -> Naechster Knoten ist N40 (45.6, 82.6)
+[Iter. 082] STEER: -> Neue Position fuer x_new: (52.9, 79.3)
+[Iter. 082] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 082] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 082] END (Baumgroesse: 43 Knoten)
+------------------------------------------------------------
+[Iter. 083] START
+[Iter. 083] SAMPLE: Generiere Zufallspunkt x_rand -> (57.8, 32.9)
+[Iter. 083] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 083] STEER: -> Neue Position fuer x_new: (46.5, 35.9)
+[Iter. 083] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 083] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 083] END (Baumgroesse: 43 Knoten)
+------------------------------------------------------------
+[Iter. 084] START
+[Iter. 084] SAMPLE: Generiere Zufallspunkt x_rand -> (8.4, 78.1)
+[Iter. 084] NEAREST: -> Naechster Knoten ist N26 (14.6, 78.1)
+[Iter. 084] STEER: -> Neue Position fuer x_new: (8.4, 78.1)
+[Iter. 084] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 084] ADD_NODE: Fuege neuen Knoten N43 hinzu. Parent: N26.
+[Iter. 084] END (Baumgroesse: 44 Knoten)
+------------------------------------------------------------
+[Iter. 085] START
+[Iter. 085] SAMPLE: Generiere Zufallspunkt x_rand -> (0.5, 94.1)
+[Iter. 085] NEAREST: -> Naechster Knoten ist N43 (8.4, 78.1)
+[Iter. 085] STEER: -> Neue Position fuer x_new: (4.9, 85.3)
+[Iter. 085] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 085] ADD_NODE: Fuege neuen Knoten N44 hinzu. Parent: N43.
+[Iter. 085] END (Baumgroesse: 45 Knoten)
+------------------------------------------------------------
+[Iter. 086] START
+[Iter. 086] SAMPLE: Generiere Zufallspunkt x_rand -> (66.3, 77.4)
+[Iter. 086] NEAREST: -> Naechster Knoten ist N40 (45.6, 82.6)
+[Iter. 086] STEER: -> Neue Position fuer x_new: (53.4, 80.6)
+[Iter. 086] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 086] ADD_NODE: Fuege neuen Knoten N45 hinzu. Parent: N40.
+[Iter. 086] END (Baumgroesse: 46 Knoten)
+------------------------------------------------------------
+[Iter. 087] START
+[Iter. 087] SAMPLE: Generiere Zufallspunkt x_rand -> (42.7, 27.0)
+[Iter. 087] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 087] STEER: -> Neue Position fuer x_new: (42.7, 27.0)
+[Iter. 087] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 087] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 087] END (Baumgroesse: 46 Knoten)
+------------------------------------------------------------
+[Iter. 088] START
+[Iter. 088] SAMPLE: Generiere Zufallspunkt x_rand -> (70.1, 47.9)
+[Iter. 088] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 088] STEER: -> Neue Position fuer x_new: (45.4, 49.2)
+[Iter. 088] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 088] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 088] END (Baumgroesse: 46 Knoten)
+------------------------------------------------------------
+[Iter. 089] START
+[Iter. 089] SAMPLE: Generiere Zufallspunkt x_rand -> (43.3, 50.8)
+[Iter. 089] NEAREST: -> Naechster Knoten ist N24 (37.4, 49.7)
+[Iter. 089] STEER: -> Neue Position fuer x_new: (43.3, 50.8)
+[Iter. 089] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 089] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 089] END (Baumgroesse: 46 Knoten)
+------------------------------------------------------------
+[Iter. 090] START
+[Iter. 090] SAMPLE: Generiere Zufallspunkt x_rand -> (32.7, 25.2)
+[Iter. 090] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 090] STEER: -> Neue Position fuer x_new: (32.7, 25.2)
+[Iter. 090] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 090] ADD_NODE: Fuege neuen Knoten N46 hinzu. Parent: N11.
+[Iter. 090] END (Baumgroesse: 47 Knoten)
+------------------------------------------------------------
+[Iter. 091] START
+[Iter. 091] SAMPLE: Generiere Zufallspunkt x_rand -> (72.8, 9.8)
+[Iter. 091] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 091] STEER: -> Neue Position fuer x_new: (45.0, 24.1)
+[Iter. 091] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 091] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 091] END (Baumgroesse: 47 Knoten)
+------------------------------------------------------------
+[Iter. 092] START
+[Iter. 092] SAMPLE: Generiere Zufallspunkt x_rand -> (84.0, 27.3)
+[Iter. 092] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 092] STEER: -> Neue Position fuer x_new: (45.9, 27.7)
+[Iter. 092] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 092] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 092] END (Baumgroesse: 47 Knoten)
+------------------------------------------------------------
+[Iter. 093] START
+[Iter. 093] SAMPLE: Generiere Zufallspunkt x_rand -> (92.8, 60.7)
+[Iter. 093] NEAREST: -> Naechster Knoten ist N45 (53.4, 80.6)
+[Iter. 093] STEER: -> Neue Position fuer x_new: (60.5, 77.0)
+[Iter. 093] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 093] ADD_NODE: Fuege neuen Knoten N47 hinzu. Parent: N45.
+[Iter. 093] END (Baumgroesse: 48 Knoten)
+------------------------------------------------------------
+[Iter. 094] START
+[Iter. 094] SAMPLE: Generiere Zufallspunkt x_rand -> (75.6, 29.8)
+[Iter. 094] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 094] STEER: -> Neue Position fuer x_new: (46.5, 36.2)
+[Iter. 094] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 094] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 094] END (Baumgroesse: 48 Knoten)
+------------------------------------------------------------
+[Iter. 095] START
+[Iter. 095] SAMPLE: Generiere Zufallspunkt x_rand -> (70.0, 35.8)
+[Iter. 095] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 095] STEER: -> Neue Position fuer x_new: (46.7, 37.4)
+[Iter. 095] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 095] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 095] END (Baumgroesse: 48 Knoten)
+------------------------------------------------------------
+[Iter. 096] START
+[Iter. 096] SAMPLE: Generiere Zufallspunkt x_rand -> (16.4, 18.0)
+[Iter. 096] NEAREST: -> Naechster Knoten ist N1 (12.1, 17.7)
+[Iter. 096] STEER: -> Neue Position fuer x_new: (16.4, 18.0)
+[Iter. 096] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 096] ADD_NODE: Fuege neuen Knoten N48 hinzu. Parent: N1.
+[Iter. 096] END (Baumgroesse: 49 Knoten)
+------------------------------------------------------------
+[Iter. 097] START
+[Iter. 097] SAMPLE: Generiere Zufallspunkt x_rand -> (98.7, 47.9)
+[Iter. 097] NEAREST: -> Naechster Knoten ist N47 (60.5, 77.0)
+[Iter. 097] STEER: -> Neue Position fuer x_new: (66.9, 72.2)
+[Iter. 097] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 097] ADD_NODE: Fuege neuen Knoten N49 hinzu. Parent: N47.
+[Iter. 097] END (Baumgroesse: 50 Knoten)
+------------------------------------------------------------
+[Iter. 098] START
+[Iter. 098] SAMPLE: Generiere Zufallspunkt x_rand -> (45.9, 37.9)
+[Iter. 098] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 098] STEER: -> Neue Position fuer x_new: (45.9, 37.9)
+[Iter. 098] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 098] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 098] END (Baumgroesse: 50 Knoten)
+------------------------------------------------------------
+[Iter. 099] START
+[Iter. 099] SAMPLE: Generiere Zufallspunkt x_rand -> (56.2, 98.7)
+[Iter. 099] NEAREST: -> Naechster Knoten ist N45 (53.4, 80.6)
+[Iter. 099] STEER: -> Neue Position fuer x_new: (54.6, 88.5)
+[Iter. 099] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 099] ADD_NODE: Fuege neuen Knoten N50 hinzu. Parent: N45.
+[Iter. 099] END (Baumgroesse: 51 Knoten)
+------------------------------------------------------------
+[Iter. 100] START
+[Iter. 100] SAMPLE: Generiere Zufallspunkt x_rand -> (14.0, 13.8)
+[Iter. 100] NEAREST: -> Naechster Knoten ist N39 (15.4, 10.0)
+[Iter. 100] STEER: -> Neue Position fuer x_new: (14.0, 13.8)
+[Iter. 100] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 100] ADD_NODE: Fuege neuen Knoten N51 hinzu. Parent: N39.
+[Iter. 100] END (Baumgroesse: 52 Knoten)
+------------------------------------------------------------
+[Iter. 101] START
+[Iter. 101] SAMPLE: Generiere Zufallspunkt x_rand -> (11.5, 0.4)
+[Iter. 101] NEAREST: -> Naechster Knoten ist N17 (14.4, 3.3)
+[Iter. 101] STEER: -> Neue Position fuer x_new: (11.5, 0.4)
+[Iter. 101] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 101] ADD_NODE: Fuege neuen Knoten N52 hinzu. Parent: N17.
+[Iter. 101] END (Baumgroesse: 53 Knoten)
+------------------------------------------------------------
+[Iter. 102] START
+[Iter. 102] SAMPLE: Generiere Zufallspunkt x_rand -> (82.0, 93.7)
+[Iter. 102] NEAREST: -> Naechster Knoten ist N49 (66.9, 72.2)
+[Iter. 102] STEER: -> Neue Position fuer x_new: (71.5, 78.7)
+[Iter. 102] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 102] ADD_NODE: Fuege neuen Knoten N53 hinzu. Parent: N49.
+[Iter. 102] END (Baumgroesse: 54 Knoten)
+------------------------------------------------------------
+[Iter. 103] START
+[Iter. 103] SAMPLE: Generiere Zufallspunkt x_rand -> (38.6, 83.2)
+[Iter. 103] NEAREST: -> Naechster Knoten ist N38 (37.7, 81.7)
+[Iter. 103] STEER: -> Neue Position fuer x_new: (38.6, 83.2)
+[Iter. 103] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 103] ADD_NODE: Fuege neuen Knoten N54 hinzu. Parent: N38.
+[Iter. 103] END (Baumgroesse: 55 Knoten)
+------------------------------------------------------------
+[Iter. 104] START
+[Iter. 104] SAMPLE: Generiere Zufallspunkt x_rand -> (25.4, 27.2)
+[Iter. 104] NEAREST: -> Naechster Knoten ist N19 (25.6, 31.9)
+[Iter. 104] STEER: -> Neue Position fuer x_new: (25.4, 27.2)
+[Iter. 104] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 104] ADD_NODE: Fuege neuen Knoten N55 hinzu. Parent: N19.
+[Iter. 104] END (Baumgroesse: 56 Knoten)
+------------------------------------------------------------
+[Iter. 105] START
+[Iter. 105] SAMPLE: Generiere Zufallspunkt x_rand -> (99.6, 13.3)
+[Iter. 105] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 105] STEER: -> Neue Position fuer x_new: (45.6, 26.0)
+[Iter. 105] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 105] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 105] END (Baumgroesse: 56 Knoten)
+------------------------------------------------------------
+[Iter. 106] START
+[Iter. 106] SAMPLE: Generiere Zufallspunkt x_rand -> (52.6, 27.4)
+[Iter. 106] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 106] STEER: -> Neue Position fuer x_new: (45.9, 27.6)
+[Iter. 106] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 106] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 106] END (Baumgroesse: 56 Knoten)
+------------------------------------------------------------
+[Iter. 107] START
+[Iter. 107] SAMPLE: Generiere Zufallspunkt x_rand -> (11.3, 11.4)
+[Iter. 107] NEAREST: -> Naechster Knoten ist N0 (10.0, 10.0)
+[Iter. 107] STEER: -> Neue Position fuer x_new: (11.3, 11.4)
+[Iter. 107] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 107] ADD_NODE: Fuege neuen Knoten N56 hinzu. Parent: N0.
+[Iter. 107] END (Baumgroesse: 57 Knoten)
+------------------------------------------------------------
+[Iter. 108] START
+[Iter. 108] SAMPLE: Generiere Zufallspunkt x_rand -> (99.1, 0.3)
+[Iter. 108] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 108] STEER: -> Neue Position fuer x_new: (45.2, 24.5)
+[Iter. 108] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 108] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 108] END (Baumgroesse: 57 Knoten)
+------------------------------------------------------------
+[Iter. 109] START
+[Iter. 109] SAMPLE: Generiere Zufallspunkt x_rand -> (11.3, 56.0)
+[Iter. 109] NEAREST: -> Naechster Knoten ist N18 (13.2, 57.0)
+[Iter. 109] STEER: -> Neue Position fuer x_new: (11.3, 56.0)
+[Iter. 109] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 109] ADD_NODE: Fuege neuen Knoten N57 hinzu. Parent: N18.
+[Iter. 109] END (Baumgroesse: 58 Knoten)
+------------------------------------------------------------
+[Iter. 110] START
+[Iter. 110] SAMPLE: Generiere Zufallspunkt x_rand -> (74.9, 58.5)
+[Iter. 110] NEAREST: -> Naechster Knoten ist N49 (66.9, 72.2)
+[Iter. 110] STEER: -> Neue Position fuer x_new: (70.9, 65.3)
+[Iter. 110] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 110] ADD_NODE: Fuege neuen Knoten N58 hinzu. Parent: N49.
+[Iter. 110] END (Baumgroesse: 59 Knoten)
+------------------------------------------------------------
+[Iter. 111] START
+[Iter. 111] SAMPLE: Generiere Zufallspunkt x_rand -> (9.4, 36.2)
+[Iter. 111] NEAREST: -> Naechster Knoten ist N36 (10.0, 36.1)
+[Iter. 111] STEER: -> Neue Position fuer x_new: (9.4, 36.2)
+[Iter. 111] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 111] ADD_NODE: Fuege neuen Knoten N59 hinzu. Parent: N36.
+[Iter. 111] END (Baumgroesse: 60 Knoten)
+------------------------------------------------------------
+[Iter. 112] START
+[Iter. 112] SAMPLE: Generiere Zufallspunkt x_rand -> (93.0, 84.8)
+[Iter. 112] NEAREST: -> Naechster Knoten ist N53 (71.5, 78.7)
+[Iter. 112] STEER: -> Neue Position fuer x_new: (79.2, 80.9)
+[Iter. 112] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 112] ADD_NODE: Fuege neuen Knoten N60 hinzu. Parent: N53.
+[Iter. 112] END (Baumgroesse: 61 Knoten)
+------------------------------------------------------------
+[Iter. 113] START
+[Iter. 113] SAMPLE: Generiere Zufallspunkt x_rand -> (80.0, 10.2)
+[Iter. 113] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 113] STEER: -> Neue Position fuer x_new: (45.2, 24.7)
+[Iter. 113] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 113] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 113] END (Baumgroesse: 61 Knoten)
+------------------------------------------------------------
+[Iter. 114] START
+[Iter. 114] SAMPLE: Generiere Zufallspunkt x_rand -> (68.6, 86.6)
+[Iter. 114] NEAREST: -> Naechster Knoten ist N53 (71.5, 78.7)
+[Iter. 114] STEER: -> Neue Position fuer x_new: (68.7, 86.2)
+[Iter. 114] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 114] ADD_NODE: Fuege neuen Knoten N61 hinzu. Parent: N53.
+[Iter. 114] END (Baumgroesse: 62 Knoten)
+------------------------------------------------------------
+[Iter. 115] START
+[Iter. 115] SAMPLE: Generiere Zufallspunkt x_rand -> (27.0, 54.5)
+[Iter. 115] NEAREST: -> Naechster Knoten ist N22 (29.5, 51.0)
+[Iter. 115] STEER: -> Neue Position fuer x_new: (27.0, 54.5)
+[Iter. 115] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 115] ADD_NODE: Fuege neuen Knoten N62 hinzu. Parent: N22.
+[Iter. 115] END (Baumgroesse: 63 Knoten)
+------------------------------------------------------------
+[Iter. 116] START
+[Iter. 116] SAMPLE: Generiere Zufallspunkt x_rand -> (8.9, 25.1)
+[Iter. 116] NEAREST: -> Naechster Knoten ist N2 (16.8, 24.2)
+[Iter. 116] STEER: -> Neue Position fuer x_new: (8.9, 25.1)
+[Iter. 116] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 116] ADD_NODE: Fuege neuen Knoten N63 hinzu. Parent: N2.
+[Iter. 116] END (Baumgroesse: 64 Knoten)
+------------------------------------------------------------
+[Iter. 117] START
+[Iter. 117] SAMPLE: Generiere Zufallspunkt x_rand -> (56.2, 90.6)
+[Iter. 117] NEAREST: -> Naechster Knoten ist N50 (54.6, 88.5)
+[Iter. 117] STEER: -> Neue Position fuer x_new: (56.2, 90.6)
+[Iter. 117] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 117] ADD_NODE: Fuege neuen Knoten N64 hinzu. Parent: N50.
+[Iter. 117] END (Baumgroesse: 65 Knoten)
+------------------------------------------------------------
+[Iter. 118] START
+[Iter. 118] SAMPLE: Generiere Zufallspunkt x_rand -> (14.7, 90.8)
+[Iter. 118] NEAREST: -> Naechster Knoten ist N44 (4.9, 85.3)
+[Iter. 118] STEER: -> Neue Position fuer x_new: (11.9, 89.2)
+[Iter. 118] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 118] ADD_NODE: Fuege neuen Knoten N65 hinzu. Parent: N44.
+[Iter. 118] END (Baumgroesse: 66 Knoten)
+------------------------------------------------------------
+[Iter. 119] START
+[Iter. 119] SAMPLE: Generiere Zufallspunkt x_rand -> (16.4, 85.0)
+[Iter. 119] NEAREST: -> Naechster Knoten ist N65 (11.9, 89.2)
+[Iter. 119] STEER: -> Neue Position fuer x_new: (16.4, 85.0)
+[Iter. 119] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 119] ADD_NODE: Fuege neuen Knoten N66 hinzu. Parent: N65.
+[Iter. 119] END (Baumgroesse: 67 Knoten)
+------------------------------------------------------------
+[Iter. 120] START
+[Iter. 120] SAMPLE: Generiere Zufallspunkt x_rand -> (11.4, 80.7)
+[Iter. 120] NEAREST: -> Naechster Knoten ist N43 (8.4, 78.1)
+[Iter. 120] STEER: -> Neue Position fuer x_new: (11.4, 80.7)
+[Iter. 120] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 120] ADD_NODE: Fuege neuen Knoten N67 hinzu. Parent: N43.
+[Iter. 120] END (Baumgroesse: 68 Knoten)
+------------------------------------------------------------
+[Iter. 121] START
+[Iter. 121] SAMPLE: Generiere Zufallspunkt x_rand -> (73.8, 5.8)
+[Iter. 121] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 121] STEER: -> Neue Position fuer x_new: (44.7, 23.6)
+[Iter. 121] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 121] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 121] END (Baumgroesse: 68 Knoten)
+------------------------------------------------------------
+[Iter. 122] START
+[Iter. 122] SAMPLE: Generiere Zufallspunkt x_rand -> (95.7, 48.1)
+[Iter. 122] NEAREST: -> Naechster Knoten ist N58 (70.9, 65.3)
+[Iter. 122] STEER: -> Neue Position fuer x_new: (77.5, 60.7)
+[Iter. 122] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 122] ADD_NODE: Fuege neuen Knoten N68 hinzu. Parent: N58.
+[Iter. 122] END (Baumgroesse: 69 Knoten)
+------------------------------------------------------------
+[Iter. 123] START
+[Iter. 123] SAMPLE: Generiere Zufallspunkt x_rand -> (91.3, 60.3)
+[Iter. 123] NEAREST: -> Naechster Knoten ist N68 (77.5, 60.7)
+[Iter. 123] STEER: -> Neue Position fuer x_new: (85.5, 60.5)
+[Iter. 123] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 123] ADD_NODE: Fuege neuen Knoten N69 hinzu. Parent: N68.
+[Iter. 123] END (Baumgroesse: 70 Knoten)
+------------------------------------------------------------
+[Iter. 124] START
+[Iter. 124] SAMPLE: Generiere Zufallspunkt x_rand -> (8.3, 99.5)
+[Iter. 124] NEAREST: -> Naechster Knoten ist N65 (11.9, 89.2)
+[Iter. 124] STEER: -> Neue Position fuer x_new: (9.2, 96.8)
+[Iter. 124] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 124] ADD_NODE: Fuege neuen Knoten N70 hinzu. Parent: N65.
+[Iter. 124] END (Baumgroesse: 71 Knoten)
+------------------------------------------------------------
+[Iter. 125] START
+[Iter. 125] SAMPLE: Generiere Zufallspunkt x_rand -> (14.1, 95.2)
+[Iter. 125] NEAREST: -> Naechster Knoten ist N70 (9.2, 96.8)
+[Iter. 125] STEER: -> Neue Position fuer x_new: (14.1, 95.2)
+[Iter. 125] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 125] ADD_NODE: Fuege neuen Knoten N71 hinzu. Parent: N70.
+[Iter. 125] END (Baumgroesse: 72 Knoten)
+------------------------------------------------------------
+[Iter. 126] START
+[Iter. 126] SAMPLE: Generiere Zufallspunkt x_rand -> (99.2, 8.0)
+[Iter. 126] NEAREST: -> Naechster Knoten ist N69 (85.5, 60.5)
+[Iter. 126] STEER: -> Neue Position fuer x_new: (87.5, 52.7)
+[Iter. 126] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 126] ADD_NODE: Fuege neuen Knoten N72 hinzu. Parent: N69.
+[Iter. 126] END (Baumgroesse: 73 Knoten)
+------------------------------------------------------------
+[Iter. 127] START
+[Iter. 127] SAMPLE: Generiere Zufallspunkt x_rand -> (63.1, 40.0)
+[Iter. 127] NEAREST: -> Naechster Knoten ist N28 (38.7, 37.9)
+[Iter. 127] STEER: -> Neue Position fuer x_new: (46.7, 38.6)
+[Iter. 127] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 127] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 127] END (Baumgroesse: 73 Knoten)
+------------------------------------------------------------
+[Iter. 128] START
+[Iter. 128] SAMPLE: Generiere Zufallspunkt x_rand -> (15.9, 18.4)
+[Iter. 128] NEAREST: -> Naechster Knoten ist N48 (16.4, 18.0)
+[Iter. 128] STEER: -> Neue Position fuer x_new: (15.9, 18.4)
+[Iter. 128] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 128] ADD_NODE: Fuege neuen Knoten N73 hinzu. Parent: N48.
+[Iter. 128] END (Baumgroesse: 74 Knoten)
+------------------------------------------------------------
+[Iter. 129] START
+[Iter. 129] SAMPLE: Generiere Zufallspunkt x_rand -> (32.7, 47.9)
+[Iter. 129] NEAREST: -> Naechster Knoten ist N22 (29.5, 51.0)
+[Iter. 129] STEER: -> Neue Position fuer x_new: (32.7, 47.9)
+[Iter. 129] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 129] ADD_NODE: Fuege neuen Knoten N74 hinzu. Parent: N22.
+[Iter. 129] END (Baumgroesse: 75 Knoten)
+------------------------------------------------------------
+[Iter. 130] START
+[Iter. 130] SAMPLE: Generiere Zufallspunkt x_rand -> (33.9, 57.9)
+[Iter. 130] NEAREST: -> Naechster Knoten ist N30 (30.9, 63.6)
+[Iter. 130] STEER: -> Neue Position fuer x_new: (33.9, 57.9)
+[Iter. 130] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 130] ADD_NODE: Fuege neuen Knoten N75 hinzu. Parent: N30.
+[Iter. 130] END (Baumgroesse: 76 Knoten)
+------------------------------------------------------------
+[Iter. 131] START
+[Iter. 131] SAMPLE: Generiere Zufallspunkt x_rand -> (6.8, 36.5)
+[Iter. 131] NEAREST: -> Naechster Knoten ist N59 (9.4, 36.2)
+[Iter. 131] STEER: -> Neue Position fuer x_new: (6.8, 36.5)
+[Iter. 131] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 131] ADD_NODE: Fuege neuen Knoten N76 hinzu. Parent: N59.
+[Iter. 131] END (Baumgroesse: 77 Knoten)
+------------------------------------------------------------
+[Iter. 132] START
+[Iter. 132] SAMPLE: Generiere Zufallspunkt x_rand -> (34.8, 33.8)
+[Iter. 132] NEAREST: -> Naechster Knoten ist N8 (32.1, 33.4)
+[Iter. 132] STEER: -> Neue Position fuer x_new: (34.8, 33.8)
+[Iter. 132] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 132] ADD_NODE: Fuege neuen Knoten N77 hinzu. Parent: N8.
+[Iter. 132] END (Baumgroesse: 78 Knoten)
+------------------------------------------------------------
+[Iter. 133] START
+[Iter. 133] SAMPLE: Generiere Zufallspunkt x_rand -> (64.0, 53.7)
+[Iter. 133] NEAREST: -> Naechster Knoten ist N58 (70.9, 65.3)
+[Iter. 133] STEER: -> Neue Position fuer x_new: (66.8, 58.4)
+[Iter. 133] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 133] ADD_NODE: Fuege neuen Knoten N78 hinzu. Parent: N58.
+[Iter. 133] END (Baumgroesse: 79 Knoten)
+------------------------------------------------------------
+[Iter. 134] START
+[Iter. 134] SAMPLE: Generiere Zufallspunkt x_rand -> (9.5, 90.9)
+[Iter. 134] NEAREST: -> Naechster Knoten ist N65 (11.9, 89.2)
+[Iter. 134] STEER: -> Neue Position fuer x_new: (9.5, 90.9)
+[Iter. 134] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 134] ADD_NODE: Fuege neuen Knoten N79 hinzu. Parent: N65.
+[Iter. 134] END (Baumgroesse: 80 Knoten)
+------------------------------------------------------------
+[Iter. 135] START
+[Iter. 135] SAMPLE: Generiere Zufallspunkt x_rand -> (46.2, 11.5)
+[Iter. 135] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 135] STEER: -> Neue Position fuer x_new: (41.5, 20.7)
+[Iter. 135] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 135] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 135] END (Baumgroesse: 80 Knoten)
+------------------------------------------------------------
+[Iter. 136] START
+[Iter. 136] SAMPLE: Generiere Zufallspunkt x_rand -> (95.0, 95.0)
+[Iter. 136] NEAREST: -> Naechster Knoten ist N60 (79.2, 80.9)
+[Iter. 136] STEER: -> Neue Position fuer x_new: (85.2, 86.2)
+[Iter. 136] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 136] ADD_NODE: Fuege neuen Knoten N80 hinzu. Parent: N60.
+[Iter. 136] END (Baumgroesse: 81 Knoten)
+------------------------------------------------------------
+[Iter. 137] START
+[Iter. 137] SAMPLE: Generiere Zufallspunkt x_rand -> (86.4, 95.9)
+[Iter. 137] NEAREST: -> Naechster Knoten ist N80 (85.2, 86.2)
+[Iter. 137] STEER: -> Neue Position fuer x_new: (86.2, 94.1)
+[Iter. 137] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 137] ADD_NODE: Fuege neuen Knoten N81 hinzu. Parent: N80.
+[Iter. 137] END (Baumgroesse: 82 Knoten)
+------------------------------------------------------------
+[Iter. 138] START
+[Iter. 138] SAMPLE: Generiere Zufallspunkt x_rand -> (31.6, 70.8)
+[Iter. 138] NEAREST: -> Naechster Knoten ist N15 (35.4, 66.6)
+[Iter. 138] STEER: -> Neue Position fuer x_new: (31.6, 70.8)
+[Iter. 138] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 138] ADD_NODE: Fuege neuen Knoten N82 hinzu. Parent: N15.
+[Iter. 138] END (Baumgroesse: 83 Knoten)
+------------------------------------------------------------
+[Iter. 139] START
+[Iter. 139] SAMPLE: Generiere Zufallspunkt x_rand -> (47.3, 11.6)
+[Iter. 139] NEAREST: -> Naechster Knoten ist N11 (37.9, 27.8)
+[Iter. 139] STEER: -> Neue Position fuer x_new: (41.9, 20.9)
+[Iter. 139] COLLISION_CHECK: -> KOLLISION! Pfad kreuzt ein Hindernis.
+[Iter. 139] DISCARD_NODE: Verwerfe x_new. Keine Aenderung am Baum.
+[Iter. 139] END (Baumgroesse: 83 Knoten)
+------------------------------------------------------------
+[Iter. 140] START
+[Iter. 140] SAMPLE: Generiere Zufallspunkt x_rand -> (2.9, 19.6)
+[Iter. 140] NEAREST: -> Naechster Knoten ist N63 (8.9, 25.1)
+[Iter. 140] STEER: -> Neue Position fuer x_new: (3.0, 19.7)
+[Iter. 140] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 140] ADD_NODE: Fuege neuen Knoten N83 hinzu. Parent: N63.
+[Iter. 140] END (Baumgroesse: 84 Knoten)
+------------------------------------------------------------
+[Iter. 141] START
+[Iter. 141] SAMPLE: Generiere Zufallspunkt x_rand -> (5.9, 49.0)
+[Iter. 141] NEAREST: -> Naechster Knoten ist N21 (3.0, 50.9)
+[Iter. 141] STEER: -> Neue Position fuer x_new: (5.9, 49.0)
+[Iter. 141] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 141] ADD_NODE: Fuege neuen Knoten N84 hinzu. Parent: N21.
+[Iter. 141] END (Baumgroesse: 85 Knoten)
+------------------------------------------------------------
+[Iter. 142] START
+[Iter. 142] SAMPLE: Generiere Zufallspunkt x_rand -> (76.9, 76.9)
+[Iter. 142] NEAREST: -> Naechster Knoten ist N60 (79.2, 80.9)
+[Iter. 142] STEER: -> Neue Position fuer x_new: (76.9, 76.9)
+[Iter. 142] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 142] ADD_NODE: Fuege neuen Knoten N85 hinzu. Parent: N60.
+[Iter. 142] END (Baumgroesse: 86 Knoten)
+------------------------------------------------------------
+[Iter. 143] START
+[Iter. 143] SAMPLE: Generiere Zufallspunkt x_rand -> (27.1, 16.2)
+[Iter. 143] NEAREST: -> Naechster Knoten ist N46 (32.7, 25.2)
+[Iter. 143] STEER: -> Neue Position fuer x_new: (28.5, 18.4)
+[Iter. 143] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 143] ADD_NODE: Fuege neuen Knoten N86 hinzu. Parent: N46.
+[Iter. 143] END (Baumgroesse: 87 Knoten)
+------------------------------------------------------------
+[Iter. 144] START
+[Iter. 144] SAMPLE: Generiere Zufallspunkt x_rand -> (98.7, 61.7)
+[Iter. 144] NEAREST: -> Naechster Knoten ist N69 (85.5, 60.5)
+[Iter. 144] STEER: -> Neue Position fuer x_new: (93.5, 61.2)
+[Iter. 144] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 144] ADD_NODE: Fuege neuen Knoten N87 hinzu. Parent: N69.
+[Iter. 144] END (Baumgroesse: 88 Knoten)
+------------------------------------------------------------
+[Iter. 145] START
+[Iter. 145] SAMPLE: Generiere Zufallspunkt x_rand -> (38.7, 1.3)
+[Iter. 145] NEAREST: -> Naechster Knoten ist N31 (21.8, 6.4)
+[Iter. 145] STEER: -> Neue Position fuer x_new: (29.5, 4.0)
+[Iter. 145] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 145] ADD_NODE: Fuege neuen Knoten N88 hinzu. Parent: N31.
+[Iter. 145] END (Baumgroesse: 89 Knoten)
+------------------------------------------------------------
+[Iter. 146] START
+[Iter. 146] SAMPLE: Generiere Zufallspunkt x_rand -> (67.6, 85.0)
+[Iter. 146] NEAREST: -> Naechster Knoten ist N61 (68.7, 86.2)
+[Iter. 146] STEER: -> Neue Position fuer x_new: (67.6, 85.0)
+[Iter. 146] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 146] ADD_NODE: Fuege neuen Knoten N89 hinzu. Parent: N61.
+[Iter. 146] END (Baumgroesse: 90 Knoten)
+------------------------------------------------------------
+[Iter. 147] START
+[Iter. 147] SAMPLE: Generiere Zufallspunkt x_rand -> (75.0, 58.1)
+[Iter. 147] NEAREST: -> Naechster Knoten ist N68 (77.5, 60.7)
+[Iter. 147] STEER: -> Neue Position fuer x_new: (75.0, 58.1)
+[Iter. 147] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 147] ADD_NODE: Fuege neuen Knoten N90 hinzu. Parent: N68.
+[Iter. 147] END (Baumgroesse: 91 Knoten)
+------------------------------------------------------------
+[Iter. 148] START
+[Iter. 148] SAMPLE: Generiere Zufallspunkt x_rand -> (95.0, 95.0)
+[Iter. 148] NEAREST: -> Naechster Knoten ist N81 (86.2, 94.1)
+[Iter. 148] STEER: -> Neue Position fuer x_new: (94.2, 94.9)
+[Iter. 148] COLLISION_CHECK: -> Pfad ist frei.
+[Iter. 148] ADD_NODE: Fuege neuen Knoten N91 hinzu. Parent: N81.
+[SYSTEM] GOAL_CHECK: Neuer Knoten N91 liegt nahe am Ziel!
+[SYSTEM] ZIEL ERREICHT! Pfad gefunden.
+[Iter. 148] END (Baumgroesse: 93 Knoten)
+------------------------------------------------------------
