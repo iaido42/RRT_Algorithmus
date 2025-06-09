@@ -1,0 +1,135 @@
+[SYSTEM] RRT-Connect Protokoll gestartet.
+[CONFIG] Start: (10.0, 10.0), Ziel: (90.0, 90.0)
+------------------------------------------------------------
+[Iter. 0001] EXPAND_A: Erweitere Baum A -> (1.0, 25.7)
+[Iter. 0001] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0002] EXPAND_B: Erweitere Baum B -> (90.0, 90.0)
+[Iter. 0002] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0003] EXPAND_A: Erweitere Baum A -> (18.9, 41.9)
+[Iter. 0003] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0004] EXPAND_B: Erweitere Baum B -> (68.3, 1.6)
+[Iter. 0004] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0005] EXPAND_A: Erweitere Baum A -> (90.0, 90.0)
+[Iter. 0006] EXPAND_B: Erweitere Baum B -> (90.0, 90.0)
+[Iter. 0006] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0007] EXPAND_A: Erweitere Baum A -> (36.2, 42.4)
+[Iter. 0008] EXPAND_B: Erweitere Baum B -> (92.7, 52.8)
+[Iter. 0008] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0009] EXPAND_A: Erweitere Baum A -> (45.2, 52.1)
+[Iter. 0010] EXPAND_B: Erweitere Baum B -> (77.6, 19.8)
+[Iter. 0010] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0011] EXPAND_A: Erweitere Baum A -> (64.5, 85.3)
+[Iter. 0012] EXPAND_B: Erweitere Baum B -> (69.8, 46.0)
+[Iter. 0012] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0013] EXPAND_A: Erweitere Baum A -> (87.0, 26.3)
+[Iter. 0014] EXPAND_B: Erweitere Baum B -> (85.1, 5.6)
+[Iter. 0014] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0015] EXPAND_A: Erweitere Baum A -> (14.7, 90.5)
+[Iter. 0015] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0016] EXPAND_B: Erweitere Baum B -> (39.4, 70.8)
+[Iter. 0017] EXPAND_A: Erweitere Baum A -> (64.9, 19.4)
+[Iter. 0018] EXPAND_B: Erweitere Baum B -> (57.4, 92.0)
+[Iter. 0019] EXPAND_A: Erweitere Baum A -> (90.0, 90.0)
+[Iter. 0020] EXPAND_B: Erweitere Baum B -> (90.0, 90.0)
+[Iter. 0020] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0021] EXPAND_A: Erweitere Baum A -> (62.0, 57.7)
+[Iter. 0022] EXPAND_B: Erweitere Baum B -> (14.3, 24.7)
+[Iter. 0023] EXPAND_A: Erweitere Baum A -> (80.2, 77.3)
+[Iter. 0024] EXPAND_B: Erweitere Baum B -> (29.5, 75.6)
+[Iter. 0025] EXPAND_A: Erweitere Baum A -> (19.7, 43.1)
+[Iter. 0025] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0026] EXPAND_B: Erweitere Baum B -> (34.5, 72.8)
+[Iter. 0027] EXPAND_A: Erweitere Baum A -> (46.7, 39.2)
+[Iter. 0028] EXPAND_B: Erweitere Baum B -> (54.3, 91.8)
+[Iter. 0029] EXPAND_A: Erweitere Baum A -> (33.8, 77.2)
+[Iter. 0030] EXPAND_B: Erweitere Baum B -> (73.8, 35.3)
+[Iter. 0031] EXPAND_A: Erweitere Baum A -> (94.0, 96.8)
+[Iter. 0032] EXPAND_B: Erweitere Baum B -> (67.6, 34.1)
+[Iter. 0033] EXPAND_A: Erweitere Baum A -> (88.3, 88.1)
+[Iter. 0034] EXPAND_B: Erweitere Baum B -> (32.5, 60.7)
+[Iter. 0035] EXPAND_A: Erweitere Baum A -> (61.4, 90.4)
+[Iter. 0036] EXPAND_B: Erweitere Baum B -> (83.3, 65.0)
+[Iter. 0036] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0037] EXPAND_A: Erweitere Baum A -> (8.0, 35.0)
+[Iter. 0037] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0038] EXPAND_B: Erweitere Baum B -> (45.8, 32.6)
+[Iter. 0039] EXPAND_A: Erweitere Baum A -> (90.0, 90.0)
+[Iter. 0040] EXPAND_B: Erweitere Baum B -> (69.1, 10.7)
+[Iter. 0041] EXPAND_A: Erweitere Baum A -> (44.0, 39.7)
+[Iter. 0042] EXPAND_B: Erweitere Baum B -> (37.5, 46.2)
+[Iter. 0043] EXPAND_A: Erweitere Baum A -> (1.3, 34.7)
+[Iter. 0043] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0044] EXPAND_B: Erweitere Baum B -> (25.5, 1.4)
+[Iter. 0045] EXPAND_A: Erweitere Baum A -> (39.2, 41.8)
+[Iter. 0046] EXPAND_B: Erweitere Baum B -> (29.9, 2.3)
+[Iter. 0047] EXPAND_A: Erweitere Baum A -> (95.3, 42.6)
+[Iter. 0048] EXPAND_B: Erweitere Baum B -> (70.4, 23.6)
+[Iter. 0049] EXPAND_A: Erweitere Baum A -> (45.7, 58.9)
+[Iter. 0050] EXPAND_B: Erweitere Baum B -> (75.3, 23.4)
+[Iter. 0050] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0051] EXPAND_A: Erweitere Baum A -> (82.7, 78.5)
+[Iter. 0052] EXPAND_B: Erweitere Baum B -> (35.8, 12.2)
+[Iter. 0053] EXPAND_A: Erweitere Baum A -> (38.3, 52.2)
+[Iter. 0054] EXPAND_B: Erweitere Baum B -> (75.6, 27.1)
+[Iter. 0055] EXPAND_A: Erweitere Baum A -> (65.4, 73.4)
+[Iter. 0056] EXPAND_B: Erweitere Baum B -> (31.6, 37.8)
+[Iter. 0057] EXPAND_A: Erweitere Baum A -> (10.2, 58.9)
+[Iter. 0057] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0058] EXPAND_B: Erweitere Baum B -> (8.3, 36.5)
+[Iter. 0059] EXPAND_A: Erweitere Baum A -> (90.0, 60.0)
+[Iter. 0060] EXPAND_B: Erweitere Baum B -> (41.5, 47.9)
+[Iter. 0061] EXPAND_A: Erweitere Baum A -> (16.7, 9.8)
+[Iter. 0061] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0062] EXPAND_B: Erweitere Baum B -> (28.5, 4.7)
+[Iter. 0063] EXPAND_A: Erweitere Baum A -> (67.3, 27.8)
+[Iter. 0064] EXPAND_B: Erweitere Baum B -> (90.0, 90.0)
+[Iter. 0064] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0065] EXPAND_A: Erweitere Baum A -> (50.6, 92.8)
+[Iter. 0065] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0066] EXPAND_B: Erweitere Baum B -> (65.4, 24.8)
+[Iter. 0067] EXPAND_A: Erweitere Baum A -> (20.0, 50.0)
+[Iter. 0067] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0068] EXPAND_B: Erweitere Baum B -> (37.4, 85.0)
+[Iter. 0069] EXPAND_A: Erweitere Baum A -> (50.2, 7.1)
+[Iter. 0070] EXPAND_B: Erweitere Baum B -> (49.3, 36.5)
+[Iter. 0071] EXPAND_A: Erweitere Baum A -> (48.4, 29.2)
+[Iter. 0072] EXPAND_B: Erweitere Baum B -> (42.3, 55.1)
+[Iter. 0073] EXPAND_A: Erweitere Baum A -> (16.6, 47.2)
+[Iter. 0073] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0074] EXPAND_B: Erweitere Baum B -> (38.1, 34.4)
+[Iter. 0075] EXPAND_A: Erweitere Baum A -> (30.6, 57.0)
+[Iter. 0075] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0076] EXPAND_B: Erweitere Baum B -> (80.4, 3.3)
+[Iter. 0076] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0077] EXPAND_A: Erweitere Baum A -> (92.7, 25.8)
+[Iter. 0078] EXPAND_B: Erweitere Baum B -> (90.0, 90.0)
+[Iter. 0078] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0079] EXPAND_A: Erweitere Baum A -> (52.7, 79.0)
+[Iter. 0079] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0080] EXPAND_B: Erweitere Baum B -> (92.8, 4.1)
+[Iter. 0080] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0081] EXPAND_A: Erweitere Baum A -> (37.5, 3.7)
+[Iter. 0082] EXPAND_B: Erweitere Baum B -> (87.3, 43.0)
+[Iter. 0082] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0083] EXPAND_A: Erweitere Baum A -> (20.1, 42.2)
+[Iter. 0084] EXPAND_B: Erweitere Baum B -> (14.4, 99.9)
+[Iter. 0085] EXPAND_A: Erweitere Baum A -> (6.8, 44.1)
+[Iter. 0085] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0086] EXPAND_B: Erweitere Baum B -> (42.6, 62.5)
+[Iter. 0087] EXPAND_A: Erweitere Baum A -> (74.2, 69.6)
+[Iter. 0088] EXPAND_B: Erweitere Baum B -> (25.6, 1.0)
+[Iter. 0088] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0089] EXPAND_A: Erweitere Baum A -> (50.9, 56.0)
+[Iter. 0089] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0090] EXPAND_B: Erweitere Baum B -> (60.5, 11.5)
+[Iter. 0090] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0091] EXPAND_A: Erweitere Baum A -> (59.2, 66.6)
+[Iter. 0091] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+[Iter. 0092] EXPAND_B: Erweitere Baum B -> (54.3, 11.4)
+[Iter. 0092] CONNECT: Versuche Verbindung von neuem Knoten aus Baum B zum anderen Baum.
+[Iter. 0093] EXPAND_A: Erweitere Baum A -> (58.6, 47.3)
+[Iter. 0093] CONNECT: Versuche Verbindung von neuem Knoten aus Baum A zum anderen Baum.
+    -> [Iter. 0093] SUCCESS: Bäume nach 93 Iterationen verbunden!
+[SYSTEM] Validiere den gefundenen Pfad...
+    -> Maximale Distanz zwischen Segmenten: 5.00 (Schrittweite: 5.0)
+    -> VALIDIERUNG ERFOLGREICH: Pfad ist verbunden und kollisionsfrei.
